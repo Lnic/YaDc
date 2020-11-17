@@ -70,18 +70,18 @@ sys.path.insert(0, PWD + '/src/')
 
 ACTIVITY = discord.Activity(type=discord.ActivityType.playing, name='/help')
 
-tourney_data_client = TourneyDataClient(
-    settings.GDRIVE_PROJECT_ID,
-    settings.GDRIVE_PRIVATE_KEY_ID,
-    settings.GDRIVE_PRIVATE_KEY,
-    settings.GDRIVE_CLIENT_EMAIL,
-    settings.GDRIVE_CLIENT_ID,
-    settings.GDRIVE_SCOPES,
-    settings.GDRIVE_FOLDER_ID,
-    settings.GDRIVE_SERVICE_ACCOUNT_FILE,
-    settings.GDRIVE_SETTINGS_FILE,
-    settings.TOURNAMENT_DATA_START_DATE
-)
+#tourney_data_client = TourneyDataClient(
+#    settings.GDRIVE_PROJECT_ID,
+#    settings.GDRIVE_PRIVATE_KEY_ID,
+#    settings.GDRIVE_PRIVATE_KEY,
+#    settings.GDRIVE_CLIENT_EMAIL,
+#    settings.GDRIVE_CLIENT_ID,
+#    settings.GDRIVE_SCOPES,
+#    settings.GDRIVE_FOLDER_ID,
+#    settings.GDRIVE_SERVICE_ACCOUNT_FILE,
+#    settings.GDRIVE_SETTINGS_FILE,
+#    settings.TOURNAMENT_DATA_START_DATE
+#)
 
 __COMMANDS = []
 
