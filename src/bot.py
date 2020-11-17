@@ -23,8 +23,8 @@ from typing import Dict, List, Tuple, Union
 import database as db
 import emojis
 import excel
-import gdrive
-from gdrive import TourneyDataClient
+#import gdrive
+#from gdrive import TourneyDataClient
 import pagination
 import server_settings
 from server_settings import GUILD_SETTINGS
