@@ -26,8 +26,8 @@ import excel
 #import gdrive
 #from gdrive import TourneyDataClient
 import pagination
-import server_settings
-from server_settings import GUILD_SETTINGS
+#import server_settings
+#from server_settings import GUILD_SETTINGS
 import settings
 import utility as util
 
