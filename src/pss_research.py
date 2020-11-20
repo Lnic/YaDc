@@ -26,7 +26,7 @@ import utility as util
 
 # ---------- Constants ----------
 
-RESEARCH_DESIGN_BASE_PATH = 'ResearchService/ListAllResearchDesigns2?languageKey=en'
+RESEARCH_DESIGN_BASE_PATH = 'ResearchService/ListAllResearchDesigns2?languagekey=fr'
 RESEARCH_DESIGN_KEY_NAME = 'ResearchDesignId'
 RESEARCH_DESIGN_DESCRIPTION_PROPERTY_NAME = 'ResearchName'
 

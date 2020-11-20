@@ -177,11 +177,11 @@ class LegacyPrestigeToDetails(LegacyPrestigeDetails):
 
 # ---------- Constants ----------
 
-CHARACTER_DESIGN_BASE_PATH = 'CharacterService/ListAllCharacterDesigns2?languageKey=en'
+CHARACTER_DESIGN_BASE_PATH = 'CharacterService/ListAllCharacterDesigns2?languagekey=fr'
 CHARACTER_DESIGN_KEY_NAME = 'CharacterDesignId'
 CHARACTER_DESIGN_DESCRIPTION_PROPERTY_NAME = 'CharacterDesignName'
 
-COLLECTION_DESIGN_BASE_PATH = 'CollectionService/ListAllCollectionDesigns?languageKey=en'
+COLLECTION_DESIGN_BASE_PATH = 'CollectionService/ListAllCollectionDesigns?languagekey=fr'
 COLLECTION_DESIGN_KEY_NAME = 'CollectionDesignId'
 COLLECTION_DESIGN_DESCRIPTION_PROPERTY_NAME = 'CollectionName'
 

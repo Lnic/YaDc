@@ -29,7 +29,7 @@ def read_resources_file() -> Dict[str, Dict[str, str]]:
     return result
 
 
-def get_resource(resource_key: str, formats: List[object] = None, language_key: str = 'en') -> str:
+def get_resource(resource_key: str, formats: List[object] = None, language_key: str = 'fr') -> str:
     if language_key not in RESOURCES.keys():
         raise ValueError(f'The requested language key is not supported: {language_key}')
     resources = RESOURCES[language_key]

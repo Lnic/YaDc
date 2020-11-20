@@ -205,7 +205,7 @@ class PromoRequirement():
 
 # ---------- Constants ----------
 
-PROMOTION_DESIGN_BASE_PATH = 'PromotionService/ListAllPromotionDesigns2?languageKey=en'
+PROMOTION_DESIGN_BASE_PATH = 'PromotionService/ListAllPromotionDesigns2?languagekey=fr'
 PROMOTION_DESIGN_KEY_NAME = 'PromotionDesignId'
 PROMOTION_DESIGN_DESCRIPTION_PROPERTY_NAME = 'Name'
 
@@ -348,7 +348,7 @@ def _get_datetime(api_datetime: str, datetime_format: str) -> datetime.datetime:
         return result
 
 
-def _get_pretty_requirement_type(requirement_type: str, language_key: str = 'en') -> str:
+def _get_pretty_requirement_type(requirement_type: str, language_key: str = 'fr') -> str:
     if language_key and requirement_type:
         result = lookups.PROMO_REQUIREMENT_TYPE_LOOKUP.get(language_key, {}).get(requirement_type, None)
         return result

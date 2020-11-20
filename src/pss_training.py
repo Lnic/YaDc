@@ -29,7 +29,7 @@ import utility as util
 
 # ---------- Constants ----------
 
-TRAINING_DESIGN_BASE_PATH = 'TrainingService/ListAllTrainingDesigns2?languageKey=en'
+TRAINING_DESIGN_BASE_PATH = 'TrainingService/ListAllTrainingDesigns2?languagekey=fr'
 TRAINING_DESIGN_KEY_NAME = 'TrainingDesignId'
 TRAINING_DESIGN_DESCRIPTION_PROPERTY_NAME = 'TrainingName'
 

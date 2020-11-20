@@ -16,7 +16,7 @@ import utility as util
 
 # ---------- Constants ----------
 
-SHIP_DESIGN_BASE_PATH = 'ShipService/ListAllShipDesigns2?languageKey=en'
+SHIP_DESIGN_BASE_PATH = 'ShipService/ListAllShipDesigns2?languagekey=fr'
 SHIP_DESIGN_KEY_NAME = 'ShipDesignId'
 SHIP_DESIGN_DESCRIPTION_PROPERTY_NAME = 'ShipDesignName'
 

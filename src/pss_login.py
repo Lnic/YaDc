@@ -62,7 +62,7 @@ class Device():
         self.__user: dict = None
         self.__token_lock: Lock = Lock()
         self.__update_lock: Lock = Lock()
-        self.__login_path: str = f'UserService/DeviceLogin8?deviceKey={self.__key}&isJailBroken=false&checksum={self.__checksum}&deviceType=DeviceTypeMac&languageKey=en&advertisingkey=%22%22'
+        self.__login_path: str = f'UserService/DeviceLogin8?deviceKey={self.__key}&isJailBroken=false&checksum={self.__checksum}&deviceType=DeviceTypeMac&languagekey=fr&advertisingkey=%22%22'
         self.__can_login_until_changed: bool = False
 
 

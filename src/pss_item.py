@@ -33,7 +33,7 @@ import utility as util
 
 # ---------- Constants ----------
 
-ITEM_DESIGN_BASE_PATH = 'ItemService/ListItemDesigns2?languageKey=en'
+ITEM_DESIGN_BASE_PATH = 'ItemService/ListItemDesigns2?languagekey=fr'
 ITEM_DESIGN_KEY_NAME = 'ItemDesignId'
 ITEM_DESIGN_DESCRIPTION_PROPERTY_NAME = 'ItemDesignName'
 

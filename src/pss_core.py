@@ -351,7 +351,7 @@ def convert_iap_options_mask(iap_options_mask: int) -> str:
 
 async def get_latest_settings(language_key: str = 'en', use_default: bool = False) -> dict:
     if not language_key:
-        language_key = 'en'
+        language_key = 'fr'
     base_url = await get_base_url(use_default=use_default)
     url = f'{base_url}{settings.LATEST_SETTINGS_BASE_PATH}{language_key}'
     raw_text = await get_data_from_url(url)
@@ -359,7 +359,7 @@ async def get_latest_settings(language_key: str = 'en', use_default: bool = Fals
     return result
 
 
-async def get_production_server(language_key: str = 'en') -> str:
+async def get_production_server(language_key: str = 'fr') -> str:
     latest_settings = await get_latest_settings(language_key=language_key, use_default=True)
     return latest_settings['ProductionServer']
 

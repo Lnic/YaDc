@@ -73,7 +73,7 @@ def _convert_sale_item_mask(sale_item_mask: int) -> str:
 
 # ---------- Dropship info ----------
 
-async def get_dropship_text(bot: commands.Bot = None, guild: discord.Guild = None, daily_info: dict = None, utc_now: datetime = None, language_key: str = 'en') -> Tuple[List[str], List[discord.Embed], bool]:
+async def get_dropship_text(bot: commands.Bot = None, guild: discord.Guild = None, daily_info: dict = None, utc_now: datetime = None, language_key: str = 'fr') -> Tuple[List[str], List[discord.Embed], bool]:
     utc_now = utc_now or util.get_utcnow()
     if not daily_info:
         daily_info = await core.get_latest_settings(language_key=language_key)
@@ -288,7 +288,7 @@ async def _get_daily_reward_from_data_as_text(raw_data: dict, item_data: entity.
 
 # ---------- News info ----------
 
-async def get_news(ctx: commands.Context, as_embed: bool = settings.USE_EMBEDS, language_key: str = 'en'):
+async def get_news(ctx: commands.Context, as_embed: bool = settings.USE_EMBEDS, language_key: str = 'fr'):
     path = f'SettingService/ListAllNewsDesigns?languageKey={language_key}'
 
     try:
